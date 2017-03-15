@@ -4,12 +4,12 @@ import GitHub, HttpCommon
 
 dir(paths...) = normpath(joinpath(dirname(@__FILE__), "..", paths...))
 
-function push_status(pr)
+function push_status(pr, commit)
     try
         repo = LibGit2.GitRepo(GLVisualizeCI.dir())
         LibGit2.fetch(repo)
         LibGit2.add!(repo, ".")
-        LibGit2.commit(repo, "update $pr")
+        LibGit2.commit(repo, "update $pr $commit")
         LibGit2.push(repo, refspecs = ["refs/heads/master"])
     catch e
         warn("couldn't update report for $pr: $e")
@@ -83,7 +83,7 @@ function handle_event(name, event, auth)
         path = dir("reports", name, package, pr)
         isdir(path) || mkdir(path)
 
-        push_status(pr)
+        push_status(pr, sha)
 
         GitHub.create_status(repo, sha; auth = auth, params = Dict(
             "state" => "pending",
@@ -96,7 +96,7 @@ function handle_event(name, event, auth)
             ENV["CI_REPORT_DIR"] = path
             ENV["CI"] = "true"
             success = test_pr(package, get(repo.full_name), pr)
-            push_status(pr)
+            push_status(pr, sha)
         catch err
             GitHub.create_status(repo, sha; auth = auth, params = Dict(
                 "state" => "error",
