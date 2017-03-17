@@ -1,157 +1,157 @@
 Already up-to-date.
-Archive:  /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/downloads/v2.7.1.zip
+Archive:  /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/downloads/v2.7.1.zip
 feae95a3a69f111bc1897b9048d9acbc290992f9
-   creating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/.gitignore  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/.mailmap  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/.travis.yml  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/AUTHORS  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/LICENSE-MIT  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/Makefile  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/README.md  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/bench.c  
-   creating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/parsertrace.c  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/url_parser.c  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.c  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.gyp  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.h  
-  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpc3NL4k/v0.5/HttpParser/deps/src/http-parser-2.7.1/test.c  
+   creating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/.gitignore  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/.mailmap  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/.travis.yml  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/AUTHORS  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/LICENSE-MIT  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/Makefile  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/README.md  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/bench.c  
+   creating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/parsertrace.c  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/contrib/url_parser.c  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.c  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.gyp  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/http_parser.h  
+  inflating: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp8z5MBF/v0.5/HttpParser/deps/src/http-parser-2.7.1/test.c  
 cc  -I. -DHTTP_PARSER_STRICT=0  -Wall -Wextra -Werror -O3  -fPIC -c http_parser.c -o libhttp_parser.o
 cc  -shared -o libhttp_parser.dylib libhttp_parser.o
 Using system libraries...
 Coverage.MallocInfo[]
 Coverage.process_folder: Searching src for .jl files...
 Coverage.process_file: Detecting coverage for src/FreeTypeAbstraction.jl
-Coverage.process_folder: Skipping FreeTypeAbstraction.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping FreeTypeAbstraction.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/GLVisualize.jl
-Coverage.process_folder: Skipping GLVisualize.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping GLVisualize.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/StructsOfArrays.jl
-Coverage.process_folder: Skipping StructsOfArrays.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping StructsOfArrays.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/boundingbox.jl
-Coverage.process_folder: Skipping boundingbox.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping boundingbox.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/camera.jl
 Coverage.process_cov: Coverage file(s) for src/camera.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/config.jl
-Coverage.process_folder: Skipping config.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping config.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/documentation.jl
-Coverage.process_folder: Skipping documentation.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping documentation.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/gui for .jl files...
 Coverage.process_file: Detecting coverage for src/gui/buttons.jl
-Coverage.process_folder: Skipping buttons.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping buttons.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/color_chooser.jl
-Coverage.process_folder: Skipping color_chooser.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping color_chooser.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/container.jl
-Coverage.process_folder: Skipping container.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping container.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/line_edit.jl
-Coverage.process_folder: Skipping line_edit.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping line_edit.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/numbers.jl
-Coverage.process_folder: Skipping numbers.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping numbers.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/options.jl
-Coverage.process_folder: Skipping options.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping options.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/parallel.jl
 Coverage.process_cov: Coverage file(s) for src/parallel.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/renderloop.jl
-Coverage.process_folder: Skipping renderloop.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping renderloop.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/text for .jl files...
 Coverage.process_file: Detecting coverage for src/text/richtext.jl
 Coverage.process_cov: Coverage file(s) for src/text/richtext.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/texture_atlas.jl
-Coverage.process_folder: Skipping texture_atlas.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping texture_atlas.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/types.jl
-Coverage.process_folder: Skipping types.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping types.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/utils.jl
-Coverage.process_folder: Skipping utils.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping utils.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/videotool.jl
-Coverage.process_folder: Skipping videotool.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping videotool.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/visualize for .jl files...
 Coverage.process_file: Detecting coverage for src/visualize/containers.jl
-Coverage.process_folder: Skipping containers.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping containers.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/image_like.jl
-Coverage.process_folder: Skipping image_like.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping image_like.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/lines.jl
-Coverage.process_folder: Skipping lines.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping lines.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/mesh.jl
-Coverage.process_folder: Skipping mesh.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping mesh.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/particles.jl
-Coverage.process_folder: Skipping particles.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping particles.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/surface.jl
-Coverage.process_folder: Skipping surface.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping surface.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/text.jl
-Coverage.process_folder: Skipping text.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping text.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize_interface.jl
-Coverage.process_folder: Skipping visualize_interface.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping visualize_interface.jl.65504.cov, not a .jl file
 Result of submission:
-{"message":"Job #15.1","url":"https://coveralls.io/jobs/23890402"}
+{"message":"Job #16.1","url":"https://coveralls.io/jobs/23964501"}
 Coverage.process_folder: Searching src for .jl files...
 Coverage.process_file: Detecting coverage for src/FreeTypeAbstraction.jl
-Coverage.process_folder: Skipping FreeTypeAbstraction.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping FreeTypeAbstraction.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/GLVisualize.jl
-Coverage.process_folder: Skipping GLVisualize.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping GLVisualize.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/StructsOfArrays.jl
-Coverage.process_folder: Skipping StructsOfArrays.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping StructsOfArrays.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/boundingbox.jl
-Coverage.process_folder: Skipping boundingbox.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping boundingbox.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/camera.jl
 Coverage.process_cov: Coverage file(s) for src/camera.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/config.jl
-Coverage.process_folder: Skipping config.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping config.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/documentation.jl
-Coverage.process_folder: Skipping documentation.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping documentation.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/gui for .jl files...
 Coverage.process_file: Detecting coverage for src/gui/buttons.jl
-Coverage.process_folder: Skipping buttons.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping buttons.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/color_chooser.jl
-Coverage.process_folder: Skipping color_chooser.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping color_chooser.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/container.jl
-Coverage.process_folder: Skipping container.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping container.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/line_edit.jl
-Coverage.process_folder: Skipping line_edit.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping line_edit.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/numbers.jl
-Coverage.process_folder: Skipping numbers.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping numbers.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/gui/options.jl
-Coverage.process_folder: Skipping options.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping options.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/parallel.jl
 Coverage.process_cov: Coverage file(s) for src/parallel.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/renderloop.jl
-Coverage.process_folder: Skipping renderloop.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping renderloop.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/text for .jl files...
 Coverage.process_file: Detecting coverage for src/text/richtext.jl
 Coverage.process_cov: Coverage file(s) for src/text/richtext.jl do not exist.
 Assuming file has no coverage.
 Coverage.process_file: Detecting coverage for src/texture_atlas.jl
-Coverage.process_folder: Skipping texture_atlas.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping texture_atlas.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/types.jl
-Coverage.process_folder: Skipping types.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping types.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/utils.jl
-Coverage.process_folder: Skipping utils.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping utils.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/videotool.jl
-Coverage.process_folder: Skipping videotool.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping videotool.jl.65504.cov, not a .jl file
 Coverage.process_folder: Searching src/visualize for .jl files...
 Coverage.process_file: Detecting coverage for src/visualize/containers.jl
-Coverage.process_folder: Skipping containers.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping containers.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/image_like.jl
-Coverage.process_folder: Skipping image_like.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping image_like.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/lines.jl
-Coverage.process_folder: Skipping lines.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping lines.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/mesh.jl
-Coverage.process_folder: Skipping mesh.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping mesh.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/particles.jl
-Coverage.process_folder: Skipping particles.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping particles.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/surface.jl
-Coverage.process_folder: Skipping surface.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping surface.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize/text.jl
-Coverage.process_folder: Skipping text.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping text.jl.65504.cov, not a .jl file
 Coverage.process_file: Detecting coverage for src/visualize_interface.jl
-Coverage.process_folder: Skipping visualize_interface.jl.54447.cov, not a .jl file
+Coverage.process_folder: Skipping visualize_interface.jl.65504.cov, not a .jl file
 the environment variable REPO_TOKEN is deprecated, use CODECOV_TOKEN instead
 Codecov.io API URL:
-https://codecov.io/upload/v2?&commit=1960894afb8eb826c08f3eb2c01a6be860ce6122&branch=HEAD&token=oK7GLje014vcMAE0cRp5WN6C3Gg4nvSW2
+https://codecov.io/upload/v2?&commit=1b2cf8762107f55d64ee535b02fb348ebc50bfb2&branch=HEAD&token=oK7GLje014vcMAE0cRp5WN6C3Gg4nvSW2
 Result of submission:
 
 <html lang="en">
