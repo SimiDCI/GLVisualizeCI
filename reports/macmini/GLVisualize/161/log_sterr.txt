@@ -1,0 +1,63 @@
+INFO: Computing test dependencies for GLVisualize...
+INFO: Cloning cache of Contour from https://github.com/tlycken/Contour.jl.git
+INFO: Cloning cache of DocStringExtensions from https://github.com/JuliaDocs/DocStringExtensions.jl.git
+INFO: Cloning cache of Highlights from https://github.com/JuliaDocs/Highlights.jl.git
+INFO: Cloning cache of ImageMagick from https://github.com/JuliaIO/ImageMagick.jl.git
+INFO: Installing Contour v0.2.0
+INFO: Installing DocStringExtensions v0.3.2
+INFO: Installing Highlights v0.2.1
+INFO: Installing ImageMagick v0.2.3
+INFO: Building Homebrew
+INFO: Building ImageMagick
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_2
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
+INFO: Testing GLVisualize
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GeometryTypes/src/typealias.jl:90
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: could not import GeometryTypes.transform_convert into GLVisualize
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+ERROR: LoadError: LoadError: There was an error during testing
+ in error(::String) at ./error.jl:21
+ in record(::Base.Test.FallbackTestSet, ::Base.Test.Error) at ./test.jl:397
+ in do_test(::Base.Test.Threw, ::Expr) at ./test.jl:281
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/micro.jl, in expression starting on line 4
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 1
+=============================[ ERROR: GLVisualize ]=============================
+
+failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+INFO: Removing Contour v0.2.0
+INFO: Removing DocStringExtensions v0.3.2
+INFO: Removing Highlights v0.2.1
+INFO: Removing ImageMagick v0.2.3
+ERROR: GLVisualize had test errors
+ in #test#61(::Bool, ::Function, ::Array{AbstractString,1}) at ./pkg/entry.jl:749
+ in (::Base.Pkg.Entry.#kw##test)(::Array{Any,1}, ::Base.Pkg.Entry.#test, ::Array{AbstractString,1}) at ./<missing>:0
+ in (::Base.Pkg.Dir.##2#3{Array{Any,1},Base.Pkg.Entry.#test,Tuple{Array{AbstractString,1}}})() at ./pkg/dir.jl:31
+ in cd(::Base.Pkg.Dir.##2#3{Array{Any,1},Base.Pkg.Entry.#test,Tuple{Array{AbstractString,1}}}, ::String) at ./file.jl:59
+ in #cd#1(::Array{Any,1}, ::Function, ::Function, ::Array{AbstractString,1}, ::Vararg{Array{AbstractString,1},N}) at ./pkg/dir.jl:31
+ in (::Base.Pkg.Dir.#kw##cd)(::Array{Any,1}, ::Base.Pkg.Dir.#cd, ::Function, ::Array{AbstractString,1}, ::Vararg{Array{AbstractString,1},N}) at ./<missing>:0
+ in #test#3(::Bool, ::Function, ::String, ::Vararg{String,N}) at ./pkg/pkg.jl:258
+ in (::Base.Pkg.#kw##test)(::Array{Any,1}, ::Base.Pkg.#test, ::String, ::Vararg{String,N}) at ./<missing>:0
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
