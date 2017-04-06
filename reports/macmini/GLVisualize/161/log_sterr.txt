@@ -1,4 +1,5 @@
 INFO: Computing test dependencies for GLVisualize...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
 INFO: Cloning cache of Contour from https://github.com/tlycken/Contour.jl.git
 INFO: Cloning cache of DocStringExtensions from https://github.com/JuliaDocs/DocStringExtensions.jl.git
 INFO: Cloning cache of Highlights from https://github.com/JuliaDocs/Highlights.jl.git
@@ -9,26 +10,114 @@ INFO: Installing Highlights v0.2.1
 INFO: Installing ImageMagick v0.2.3
 INFO: Building Homebrew
 INFO: Building ImageMagick
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_2
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_2
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
 INFO: Testing GLVisualize
+INFO: Checking out GLAbstraction sd/staticarrays...
+INFO: Pulling GLAbstraction latest sd/staticarrays...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+INFO: Removing Contour v0.2.0
+INFO: Removing DocStringExtensions v0.3.2
+INFO: Removing Highlights v0.2.1
+INFO: Removing ImageMagick v0.2.3
+INFO: Checking out GeometryTypes sd/staticarrays...
+INFO: Pulling GeometryTypes latest sd/staticarrays...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+INFO: No packages to install, update or remove
+INFO: Checking out GLWindow sd/staticarrays...
+INFO: Pulling GLWindow latest sd/staticarrays...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
+INFO: No packages to install, update or remove
+INFO: Checking out ModernGL sd/v06...
+INFO: Pulling ModernGL latest sd/v06...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
+INFO: No packages to install, update or remove
+INFO: Checking out StaticArrays sd/fixedsizearrays...
+INFO: Pulling StaticArrays latest sd/fixedsizearrays...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for StaticArrays: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
+INFO: No packages to install, update or remove
+INFO: Cloning FreeTypeAbstraction from https://github.com/JuliaGraphics/FreeTypeAbstraction.jl.git
+INFO: Computing changes...
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for StaticArrays: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
+INFO: No packages to install, update or remove
 WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
 This can be ignored on a headless system.
-WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
-  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GeometryTypes/src/typealias.jl:90
-WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
-This can be ignored on a headless system.
-WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
-This can be ignored on a headless system.
-WARNING: could not import GeometryTypes.transform_convert into GLVisualize
-WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
-This can be ignored on a headless system.
-ERROR: LoadError: LoadError: There was an error during testing
- in error(::String) at ./error.jl:21
- in record(::Base.Test.FallbackTestSet, ::Base.Test.Error) at ./test.jl:397
- in do_test(::Base.Test.Threw, ::Expr) at ./test.jl:281
+ERROR: LoadError: syntax: invalid type signature
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/StaticArrays/src/StaticArrays.jl, in expression starting on line 30
+ERROR: LoadError: Failed to precompile StaticArrays to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/StaticArrays.ji.
+ in compilecache(::String) at ./loading.jl:593
+ in require(::Symbol) at ./loading.jl:393
+ in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLAbstraction/src/GLAbstraction.jl, in expression starting on line 6
+ERROR: LoadError: Failed to precompile GLAbstraction to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLAbstraction.ji.
+ in compilecache(::String) at ./loading.jl:593
+ in require(::Symbol) at ./loading.jl:393
+ in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLWindow/src/GLWindow.jl, in expression starting on line 6
+ERROR: LoadError: Failed to precompile GLWindow to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLWindow.ji.
+ in compilecache(::String) at ./loading.jl:593
+ in require(::Symbol) at ./loading.jl:393
+ in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/src/GLVisualize.jl, in expression starting on line 5
+ERROR: LoadError: LoadError: Failed to precompile GLVisualize to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLVisualize.ji.
+ in compilecache(::String) at ./loading.jl:593
+ in require(::Symbol) at ./loading.jl:422
+ in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
  in include_from_node1(::String) at ./loading.jl:488
  in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
  in include_from_node1(::String) at ./loading.jl:488
@@ -36,17 +125,19 @@ ERROR: LoadError: LoadError: There was an error during testing
  in process_options(::Base.JLOptions) at ./client.jl:265
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/micro.jl, in expression starting on line 4
-while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 1
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/micro.jl, in expression starting on line 1
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 8
 =============================[ ERROR: GLVisualize ]=============================
 
-failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNfhrUY/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
+failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
 
 ================================================================================
-INFO: Removing Contour v0.2.0
-INFO: Removing DocStringExtensions v0.3.2
-INFO: Removing Highlights v0.2.1
-INFO: Removing ImageMagick v0.2.3
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for StaticArrays: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
+WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
+WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
+INFO: No packages to install, update or remove
 ERROR: GLVisualize had test errors
  in #test#61(::Bool, ::Function, ::Array{AbstractString,1}) at ./pkg/entry.jl:749
  in (::Base.Pkg.Entry.#kw##test)(::Array{Any,1}, ::Base.Pkg.Entry.#test, ::Array{AbstractString,1}) at ./<missing>:0
