@@ -10,10 +10,10 @@ INFO: Installing Highlights v0.2.1
 INFO: Installing ImageMagick v0.2.3
 INFO: Building Homebrew
 INFO: Building ImageMagick
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_2
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_2
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
 INFO: Testing GLVisualize
 INFO: Checking out GLAbstraction sd/staticarrays...
 INFO: Pulling GLAbstraction latest sd/staticarrays...
@@ -71,8 +71,8 @@ ERROR: LoadError: syntax: invalid type signature
  in process_options(::Base.JLOptions) at ./client.jl:242
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/StaticArrays/src/StaticArrays.jl, in expression starting on line 30
-ERROR: LoadError: Failed to precompile StaticArrays to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/StaticArrays.ji.
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/StaticArrays/src/StaticArrays.jl, in expression starting on line 30
+ERROR: LoadError: Failed to precompile StaticArrays to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/lib/v0.5/StaticArrays.ji.
  in compilecache(::String) at ./loading.jl:593
  in require(::Symbol) at ./loading.jl:393
  in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
@@ -85,8 +85,8 @@ ERROR: LoadError: Failed to precompile StaticArrays to /var/folders/g8/96t76vbx4
  in process_options(::Base.JLOptions) at ./client.jl:242
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLAbstraction/src/GLAbstraction.jl, in expression starting on line 6
-ERROR: LoadError: Failed to precompile GLAbstraction to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLAbstraction.ji.
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLAbstraction/src/GLAbstraction.jl, in expression starting on line 6
+ERROR: LoadError: Failed to precompile GLAbstraction to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/lib/v0.5/GLAbstraction.ji.
  in compilecache(::String) at ./loading.jl:593
  in require(::Symbol) at ./loading.jl:393
  in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
@@ -99,8 +99,8 @@ ERROR: LoadError: Failed to precompile GLAbstraction to /var/folders/g8/96t76vbx
  in process_options(::Base.JLOptions) at ./client.jl:242
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLWindow/src/GLWindow.jl, in expression starting on line 6
-ERROR: LoadError: Failed to precompile GLWindow to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLWindow.ji.
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLWindow/src/GLWindow.jl, in expression starting on line 6
+ERROR: LoadError: Failed to precompile GLWindow to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/lib/v0.5/GLWindow.ji.
  in compilecache(::String) at ./loading.jl:593
  in require(::Symbol) at ./loading.jl:393
  in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
@@ -113,8 +113,8 @@ ERROR: LoadError: Failed to precompile GLWindow to /var/folders/g8/96t76vbx45s4h
  in process_options(::Base.JLOptions) at ./client.jl:242
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/src/GLVisualize.jl, in expression starting on line 5
-ERROR: LoadError: LoadError: Failed to precompile GLVisualize to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/lib/v0.5/GLVisualize.ji.
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLVisualize/src/GLVisualize.jl, in expression starting on line 5
+ERROR: LoadError: LoadError: Failed to precompile GLVisualize to /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/lib/v0.5/GLVisualize.ji.
  in compilecache(::String) at ./loading.jl:593
  in require(::Symbol) at ./loading.jl:422
  in require(::Symbol) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
@@ -125,11 +125,11 @@ ERROR: LoadError: LoadError: Failed to precompile GLVisualize to /var/folders/g8
  in process_options(::Base.JLOptions) at ./client.jl:265
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/micro.jl, in expression starting on line 1
-while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 8
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLVisualize/test/micro.jl, in expression starting on line 1
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 8
 =============================[ ERROR: GLVisualize ]=============================
 
-failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpeZAMZ9/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
+failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp7CKf6l/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
 
 ================================================================================
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for StaticArrays: [0.6.0-,∞)
