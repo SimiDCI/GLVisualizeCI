@@ -1,0 +1,152 @@
+INFO: Computing test dependencies for GLVisualize...
+INFO: Cloning cache of Contour from https://github.com/tlycken/Contour.jl.git
+INFO: Cloning cache of DocStringExtensions from https://github.com/JuliaDocs/DocStringExtensions.jl.git
+INFO: Cloning cache of Highlights from https://github.com/JuliaDocs/Highlights.jl.git
+INFO: Cloning cache of ImageMagick from https://github.com/JuliaIO/ImageMagick.jl.git
+INFO: Installing Contour v0.2.0
+INFO: Installing DocStringExtensions v0.3.3
+INFO: Installing Highlights v0.2.1
+INFO: Installing ImageMagick v0.2.4
+INFO: Building Homebrew
+INFO: Building ImageMagick
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
+INFO: Testing GLVisualize
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GeometryTypes/src/typealias.jl:90
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+Switched to branch 'master'
+WARNING: Plots.jl is not installed, excluding a lot of interesting examples from the tests
+    and a nice summary.
+Please consider doing: `Pkg.add("Plots"); Pkg.checkout("Plots", "dev")`
+WARNING: OpenGL debug message callback not available on osx
+INFO: Caching fonts, this may take a while. Needed only on first run!
+WARNING: GLFW reports the following error: Cocoa: Failed to retrieve display name.
+This can be ignored on a headless system.
+WARNING: imfilter_gaussian(img, sigma; kwargs...) is deprecated; use `imfilter(img, KernelFactors.IIRGaussian(sigma; kwargs...))` instead, possibly with `NA()`
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in #imfilter_gaussian#33(::Bool, ::Void, ::Function, ::Array{ColorTypes.RGBA{Float32},2}, ::Array{Float32,1}) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/ImageFiltering/src/deprecated.jl:77
+ in imfilter_gaussian(::Array{ColorTypes.RGBA{Float32},2}, ::Array{Float32,1}) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/ImageFiltering/src/deprecated.jl:72
+ in myfilter(::Array{ColorTypes.RGBA{Float32},2}, ::Float32) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/gui/image_processing.jl:33
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Expr) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:6
+ in include_in_module(::Symbol, ::ExampleRunner.RunnerConfig, ::String, ::GLWindow.Screen, ::Reactive.Signal{Float32}) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:345
+ in _test_include(::String, ::ExampleRunner.RunnerConfig) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:368
+ in macro expansion; at /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/test/test_static.jl:82 [inlined]
+ in anonymous at ./<missing>:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/gui/image_processing.jl, in expression starting on line 39
+ffmpeg version 3.2.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 8.0.0 (clang-800.0.42.1)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.2.4 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --disable-lzma --enable-vda
+  libavutil      55. 34.101 / 55. 34.101
+  libavcodec     57. 64.101 / 57. 64.101
+  libavformat    57. 56.101 / 57. 56.101
+  libavdevice    57.  1.100 / 57.  1.100
+  libavfilter     6. 65.100 /  6. 65.100
+  libavresample   3.  1.  0 /  3.  1.  0
+  libswscale      4.  2.100 /  4.  2.100
+  libswresample   2.  3.100 /  2.  3.100
+  libpostproc    54.  1.100 / 54.  1.100
+Input #0, rawvideo, from 'pipe:0':
+  Duration: N/A, start: 0.000000, bitrate: 1319573 kb/s
+    Stream #0:0: Video: rawvideo (RGB[24] / 0x18424752), rgb24, 1483x1483, 1319573 kb/s, 25 tbr, 25 tbn, 25 tbc
+/Users/julia/.julia/v0.5/GLVisualizeCI/reports/macmini/GLVisualize/169/videorecord.mkv/EageGhkc.mkv: No such file or directory
+LoadError: write: broken pipe (EPIPE)
+ in yieldto(::Task, ::ANY) at ./event.jl:136
+ in yieldto(::Task, ::ANY) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in wait() at ./event.jl:169
+ in stream_wait(::Task) at ./stream.jl:44
+ in uv_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:820
+ in unsafe_write(::Base.PipeEndpoint, ::Ptr{UInt8}, ::UInt64) at ./stream.jl:830
+ in unsafe_write(::Pipe, ::Ptr{UInt8}, ::UInt64) at ./io.jl:83
+ in unsafe_write(::Pipe, ::Ptr{ColorTypes.RGB{FixedPointNumbers.Normed{UInt8,8}}}, ::Int64) at ./io.jl:156
+ in write(::Pipe, ::Array{ColorTypes.RGB{FixedPointNumbers.Normed{UInt8,8}},2}) at ./io.jl:180
+ in add_frame!(::Pipe, ::GLWindow.Screen, ::Array{ColorTypes.RGB{FixedPointNumbers.Normed{UInt8,8}},2}) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/videotool.jl:22
+ in macro expansion; at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/introduction/video_recording.jl:36 [inlined]
+ in anonymous at ./<missing>:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Expr) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:6
+ in include_in_module(::Symbol, ::ExampleRunner.RunnerConfig, ::String, ::GLWindow.Screen, ::Reactive.Signal{Float32}) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:345
+ in _test_include(::String, ::ExampleRunner.RunnerConfig) at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/src/../examples/ExampleRunner.jl:368
+ in macro expansion; at /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/test/test_static.jl:82 [inlined]
+ in anonymous at ./<missing>:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/introduction/video_recording.jl, in expression starting on line 26WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+in merge at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GeometryTypes/src/meshes.jl
+WARNING: ColorTypes.U8 is deprecated, use FixedPointNumbers.Normed{UInt8, 8} instead.
+  likely near /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/examples/meshes/meshcreation.jl:29
+in merge at /var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GeometryTypes/src/meshes.jl
+ERROR: LoadError: LoadError: Tests did not pass!
+ in error(::String) at ./error.jl:21
+ in error(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in include_from_node1(::String) at ./loading.jl:488
+ in include_from_node1(::String) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:265
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/test/test_static.jl, in expression starting on line 136
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 15
+=============================[ ERROR: GLVisualize ]=============================
+
+failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmpNaD8fx/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
+
+================================================================================
+INFO: Removing Contour v0.2.0
+INFO: Removing DocStringExtensions v0.3.3
+INFO: Removing Highlights v0.2.1
+INFO: Removing ImageMagick v0.2.4
+ERROR: GLVisualize had test errors
+ in #test#61(::Bool, ::Function, ::Array{AbstractString,1}) at ./pkg/entry.jl:749
+ in (::Base.Pkg.Entry.#kw##test)(::Array{Any,1}, ::Base.Pkg.Entry.#test, ::Array{AbstractString,1}) at ./<missing>:0
+ in (::Base.Pkg.Dir.##2#3{Array{Any,1},Base.Pkg.Entry.#test,Tuple{Array{AbstractString,1}}})() at ./pkg/dir.jl:31
+ in cd(::Base.Pkg.Dir.##2#3{Array{Any,1},Base.Pkg.Entry.#test,Tuple{Array{AbstractString,1}}}, ::String) at ./file.jl:59
+ in #cd#1(::Array{Any,1}, ::Function, ::Function, ::Array{AbstractString,1}, ::Vararg{Array{AbstractString,1},N}) at ./pkg/dir.jl:31
+ in (::Base.Pkg.Dir.#kw##cd)(::Array{Any,1}, ::Base.Pkg.Dir.#cd, ::Function, ::Array{AbstractString,1}, ::Vararg{Array{AbstractString,1},N}) at ./<missing>:0
+ in #test#3(::Bool, ::Function, ::String, ::Vararg{String,N}) at ./pkg/pkg.jl:258
+ in (::Base.Pkg.#kw##test)(::Array{Any,1}, ::Base.Pkg.#test, ::String, ::Vararg{String,N}) at ./<missing>:0
+ in eval(::Module, ::Any) at ./boot.jl:234
+ in eval(::Module, ::Any) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in process_options(::Base.JLOptions) at ./client.jl:242
+ in _start() at ./client.jl:321
+ in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
