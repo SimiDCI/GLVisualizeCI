@@ -1,28 +1,28 @@
 INFO: Computing test dependencies for GLVisualize...
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
-INFO: Cloning cache of Contour from https://github.com/tlycken/Contour.jl.git
+INFO: Cloning cache of Contour from https://github.com/JuliaGeometry/Contour.jl.git
 INFO: Cloning cache of DocStringExtensions from https://github.com/JuliaDocs/DocStringExtensions.jl.git
 INFO: Cloning cache of Highlights from https://github.com/JuliaDocs/Highlights.jl.git
 INFO: Cloning cache of ImageMagick from https://github.com/JuliaIO/ImageMagick.jl.git
-INFO: Installing Contour v0.2.0
-INFO: Installing DocStringExtensions v0.3.2
+INFO: Installing Contour v0.3.0
+INFO: Installing DocStringExtensions v0.3.3
 INFO: Installing Highlights v0.2.1
-INFO: Installing ImageMagick v0.2.3
+INFO: Installing ImageMagick v0.4.0
 INFO: Building Homebrew
 INFO: Building ImageMagick
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.7_3
-Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/Homebrew/deps/usr/Cellar/xz/5.2.3
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/Homebrew/deps/usr/Cellar/jpeg/8d
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/Homebrew/deps/usr/Cellar/libtiff/4.0.8
+Warning: Already linked: /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/Homebrew/deps/usr/Cellar/libtool/2.4.6_1
 INFO: Testing GLVisualize
 INFO: Checking out GLAbstraction sd/staticarrays...
 INFO: Pulling GLAbstraction latest sd/staticarrays...
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
-INFO: Removing Contour v0.2.0
-INFO: Removing DocStringExtensions v0.3.2
+INFO: Removing Contour v0.3.0
+INFO: Removing DocStringExtensions v0.3.3
 INFO: Removing Highlights v0.2.1
-INFO: Removing ImageMagick v0.2.3
+INFO: Removing ImageMagick v0.4.0
 INFO: Checking out GeometryTypes sd/staticarrays...
 INFO: Pulling GeometryTypes latest sd/staticarrays...
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
@@ -44,19 +44,14 @@ WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction:
 WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
 INFO: No packages to install, update or remove
 INFO: Checking out StaticArrays sd/fixedsizearrays...
-INFO: Pulling StaticArrays latest sd/fixedsizearrays...
-WARNING: julia is fixed at 0.5.1 conflicting with requirement for StaticArrays: [0.6.0-,∞)
-WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
-WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLVisualize: [0.6.0-,∞)
-WARNING: julia is fixed at 0.5.1 conflicting with requirement for GLAbstraction: [0.6.0-,∞)
-WARNING: GLWindow is fixed at 0.2.1+ conflicting with requirement for GLVisualize: [0.3.0,∞)
-ERROR: LoadError: unsatisfiable package requirements detected: no feasible version could be found for package: ImageFiltering
-  (you may try increasing the value of the
-   JULIA_PKGRESOLVE_ACCURACY environment variable)
- in resolve(::Dict{String,Base.Pkg.Types.VersionSet}, ::Dict{String,Dict{VersionNumber,Base.Pkg.Types.Available}}) at ./pkg/resolve.jl:37
- in resolve(::Dict{String,Base.Pkg.Types.VersionSet}, ::Dict{String,Dict{VersionNumber,Base.Pkg.Types.Available}}, ::Dict{String,Tuple{VersionNumber,Bool}}, ::Dict{String,Base.Pkg.Types.Fixed}, ::Dict{String,VersionNumber}, ::Set{String}) at ./pkg/entry.jl:495
- in resolve(::Dict{String,Base.Pkg.Types.VersionSet}, ::Dict{String,Dict{VersionNumber,Base.Pkg.Types.Available}}, ::Dict{String,Tuple{VersionNumber,Bool}}, ::Dict{String,Base.Pkg.Types.Fixed}, ::Dict{String,VersionNumber}) at ./pkg/entry.jl:476 (repeats 6 times)
- in (::Base.Pkg.Entry.##18#20{String,String,Bool,Bool})(::Base.LibGit2.GitRepo) at ./pkg/entry.jl:237
+ERROR: LoadError: GitError(Code:ERROR, Class:Merge, There is no tracking information for the current branch.)
+ in #126 at ./libgit2/libgit2.jl:414 [inlined]
+ in with(::Base.LibGit2.##126#131{Base.LibGit2.GitRepo}, ::Void) at ./libgit2/types.jl:701
+ in (::Base.LibGit2.##122#127{String,String,Bool,Base.LibGit2.MergeOptions,Base.LibGit2.CheckoutOptions,Base.LibGit2.GitRepo})(::Base.LibGit2.GitReference) at ./libgit2/libgit2.jl:412
+ in with(::Base.LibGit2.##122#127{String,String,Bool,Base.LibGit2.MergeOptions,Base.LibGit2.CheckoutOptions,Base.LibGit2.GitRepo}, ::Base.LibGit2.GitReference) at ./libgit2/types.jl:701
+ in with(::Base.LibGit2.##122#127{String,String,Bool,Base.LibGit2.MergeOptions,Base.LibGit2.CheckoutOptions,Base.LibGit2.GitRepo}, ::Base.LibGit2.GitReference) at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
+ in (::Base.#kw##merge!)(::Array{Any,1}, ::Base.#merge!, ::Base.LibGit2.GitRepo) at ./<missing>:0
+ in (::Base.Pkg.Entry.##18#20{String,String,Bool,Bool})(::Base.LibGit2.GitRepo) at ./pkg/entry.jl:231
  in transact(::Base.Pkg.Entry.##18#20{String,String,Bool,Bool}, ::Base.LibGit2.GitRepo) at ./libgit2/libgit2.jl:521
  in (::Base.Pkg.Entry.##17#19{String,String,Bool,Bool})(::Base.LibGit2.GitRepo) at ./pkg/entry.jl:228
  in with(::Base.Pkg.Entry.##17#19{String,String,Bool,Bool}, ::Base.LibGit2.GitRepo) at ./libgit2/types.jl:701
@@ -73,10 +68,10 @@ ERROR: LoadError: unsatisfiable package requirements detected: no feasible versi
  in process_options(::Base.JLOptions) at ./client.jl:265
  in _start() at ./client.jl:321
  in _start() at /Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib:?
-while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 5
+while loading /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/GLVisualize/test/runtests.jl, in expression starting on line 5
 =============================[ ERROR: GLVisualize ]=============================
 
-failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp3LfgIp/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
+failed process: Process(`/Users/julia/vchuravy/julia-0.5/usr/bin/julia -Cnative -J/Users/julia/vchuravy/julia-0.5/usr/lib/julia/sys.dylib --compile=yes --depwarn=yes --check-bounds=yes --code-coverage=user --inline=no --color=no --compilecache=yes /private/var/folders/g8/96t76vbx45s4h90zvkwnt2800000gn/T/tmp2VMnF4/v0.5/GLVisualize/test/runtests.jl`, ProcessExited(1)) [1]
 
 ================================================================================
 WARNING: julia is fixed at 0.5.1 conflicting with requirement for GeometryTypes: [0.6.0-,∞)
